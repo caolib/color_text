@@ -1,4 +1,4 @@
-from clb.color_text import colorTxt, color
+from bin_color_text.color_text import colorTxt, color
 
 # rgb颜色示例
 print(colorTxt("666"))
