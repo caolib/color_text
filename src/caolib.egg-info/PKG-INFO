@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: caolib
-Version: 0.1.6
+Version: 0.1.9
 Summary: A simple package to color text in terminal.
 Author-email: clb <1265501579@qq.com>
 Project-URL: Homepage, https://github.com/caolib/color_text
