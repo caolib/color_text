@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="bin_color_text",
-    version="0.1.2",
+    version="0.1.3",
     author="caolib",
     author_email="1265501579@qq.com",
     description="A tool for printing colored strings in the terminal",
