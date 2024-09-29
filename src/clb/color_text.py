@@ -15,12 +15,12 @@ class color:
         return f"{self.red};{self.green};{self.blue}"
 
 # 生成颜色代码
-def colorTxt(txt, foreground=None, background=None):
+def colorTxt(txt, fg=None, bg=None):
     if txt:
         color_code = ""
-        if foreground:
-            color_code += f"\033[38;2;{foreground}m"
-        if background:
-            color_code += f"\033[48;2;{background}m"
+        if fg:
+            color_code += f"\033[38;2;{fg}m"
+        if bg:
+            color_code += f"\033[48;2;{bg}m"
         color_code += f"{txt}\033[0m"
         return color_code
